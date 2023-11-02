@@ -1,8 +1,8 @@
+# Add region,access and secret key accordingly
 provider "aws" {
   region     = "***"
   access_key = "***"
   secret_key = "***"
-
 }
 
 data "aws_region" "current" {}
